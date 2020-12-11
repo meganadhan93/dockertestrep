@@ -1,5 +1,5 @@
 webserver:
-    image: nginx:latest
+    image: jenkins:latest
     container_name: webserver
     restart: unless-stopped
     tty: true
